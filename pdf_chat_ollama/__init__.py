@@ -10,14 +10,13 @@ __author__ = "Your Name"
 __email__ = "your.email@example.com"
 
 from .chat_engine import ChatEngine
-from .config import APP_NAME, Config
+from .config import APP_NAME
 from .history_manager import HistoryManager
 from .pdf_processor import PDFProcessor
 from .vector_store import VectorStore
 
 __all__ = [
     "ChatEngine",
-    "Config",
     "HistoryManager", 
     "PDFProcessor",
     "VectorStore",
